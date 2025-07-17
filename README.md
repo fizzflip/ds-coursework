@@ -16,12 +16,12 @@ Ouput:<br>
 7. Write a Java code to find minimum number from any 10 element from the array.
 8. Create float array of 10 elements. Find its sum and average.
 9. Perform addition of two matrix. User input required for size and values.
-1.  Create a 3 × 3 Matrix and display it in matrix form. Perform sum of each row and display like below example:<br>
+10. Create a 3 × 3 Matrix and display it in matrix form. Perform sum of each row and display like below example:<br>
 `| 1 6 5 | = | 12 |`<br>
 `| 0 5 2 | = |  7 |`<br>
 `| 6 6 3 | = | 15 |`<br>
-1.  Create 3 × 3 matrix and perform matrix addition.
-2.  Create 3 × 3 matrix and perform matrix subtraction.
-3.  Print an array using row major order using user defined function.
-4.  Print an array using column major order using user defined function.
-5.  Get two different values from the user and perform arithmetic operations and display the answer. Use user defined functions and switch case.
+11. Create 3 × 3 matrix and perform matrix addition.
+12. Create 3 × 3 matrix and perform matrix subtraction.
+13. Print an array using row major order using user defined function.
+14. Print an array using column major order using user defined function.
+15. Get two different values from the user and perform arithmetic operations and display the answer. Use user defined functions and switch case.
