@@ -4,5 +4,7 @@ public class P03_CopyArray {
 
         int[] copy = new int[original.length];
         for (int i = 0; i < original.length; i++) copy[i] = original[i];
+
+        for (int i = 0; i < copy.length; i++) System.out.print(copy[i] + " ");
     }
 }
