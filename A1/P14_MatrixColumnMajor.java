@@ -5,12 +5,4 @@ public class P14_MatrixColumnMajor {
             for (int j = 0; j < R; j++)
                 System.out.print(matrix[j][i] + " ");
     }
-
-    public static void main(String[] args) {
-        columnMajorOrder(new int[][]{
-                {1, 2, 3},
-                {12, 23, 34},
-                {11, 22, 33}
-        });
-    }
 }
