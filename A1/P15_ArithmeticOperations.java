@@ -2,25 +2,15 @@ import java.util.Scanner;
 
 public class P15_ArithmeticOperations {
 
-    static int add(int a, int b) {
-        return a + b;
-    }
+    static int add(int a, int b) { return a + b; }
 
-    static int subtract(int a, int b) {
-        return a - b;
-    }
+    static int subtract(int a, int b) { return a - b; }
 
-    static int multiply(int a, int b) {
-        return a * b;
-    }
+    static int multiply(int a, int b) { return a * b; }
 
-    static double divide(int a, int b) {
-        return (double) a / b;
-    }
+    static double divide(int a, int b) { return (double) a / b; }
 
-    static int modulo(int a, int b) {
-        return a % b;
-    }
+    static int modulo(int a, int b) { return a % b; }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -36,34 +26,25 @@ public class P15_ArithmeticOperations {
             else System.out.println("The second number must be different from the first.");
         }
 
-        System.out.println("\nChoose operation:");
-        System.out.println("1. Addition");
-        System.out.println("2. Subtraction");
-        System.out.println("3. Multiplication");
-        System.out.println("4. Division");
-        System.out.println("5. Modulo");
+        System.out.println("""
+        Choose operation:
+        1. Addition
+        2. Subtraction
+        3. Multiplication
+        4. Division
+        5. Modulo
+        """);
 
         System.out.print("Choice (1 - 5): ");
-        int choice = sc.nextInt();
+        String result = switch (sc.nextInt()) {
+            case 1 -> "Result: " + add(num1, num2);
+            case 2 -> "Result: " + subtract(num1, num2);
+            case 3 -> "Result: " + multiply(num1, num2);
+            case 4 -> (num2 != 0) ? "Result: " + divide(num1, num2) : "Division by zero is not allowed.";
+            case 5 -> (num2 != 0) ? "Result: " + modulo(num1, num2) : "Modulo by zero is not allowed.";
+            default -> "Invalid choice.";
+        };
 
-        switch (choice) {
-            case 1:
-                System.out.println("Result: " + add(num1, num2));
-                break;
-            case 2:
-                System.out.println("Result: " + subtract(num1, num2));
-                break;
-            case 3:
-                System.out.println("Result: " + multiply(num1, num2));
-                break;
-            case 4:
-                System.out.println((num2 != 0) ? "Result: " + divide(num1, num2) : "Division by zero is not allowed.");
-                break;
-            case 5:
-                System.out.println((num2 != 0) ? "Result: " + modulo(num1, num2) : "Modulo by zero is not allowed.");
-                break;
-            default:
-                System.out.println("Invalid choice.");
-        }
+        System.out.println(result);
     }
 }
