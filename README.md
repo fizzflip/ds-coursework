@@ -34,9 +34,14 @@ C = {3, 4, 5, 6, 7, 8, 9}
 - [x] Print array in column major order using a function. [**\[S\]**](A1/P14_MatrixColumnMajor.java)
 - [x] Get two different values from the user and perform arithmetic operations then display the result (use user defined functions & switch case) [**\[S\]**](A1/P15_ArithmeticOperations.java)
 
+## A2
+
+- [x] Implement sequential search using function. [**\[S\]**](A2/P01_SequentialSearch.java)
+- [x] Implement linear search using function but abort the program if user enters a negative value.
+
 ## Extras Assignments
 
-- [x] Interleave two arrays taken as user input.
+- [x] Interleave two arrays taken as user input. [**\[S\]**](EAs/InterleaveArrays.java)
 
 ```txt
   N: 5
@@ -45,7 +50,7 @@ Array 2: 10 20 30 40 50
 Result: 1 20 2 30 3 40 4 50 5 10
 ```
 
-- [ ] Array operations on elements:
+- [ ] Array operations on elements: [**\[S\]**](EAs/ArrayOperations.java)
   - [x] Add
   - [ ] Delete
   - [ ] Update
