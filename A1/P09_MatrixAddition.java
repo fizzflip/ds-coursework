@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class P09_MatrixAddition {
 
-    static Scanner sc = new Scanner(System.in);
     static int R, C;
+    static Scanner sc = new Scanner(System.in);
 
     static int[][] getMatrix() {
         int[][] matrix = new int[R][C];

@@ -23,7 +23,7 @@ public class P05_MergeArrays {
 
         int i;
         for (i = 0; i < arr1.length; i++) merged[i] = arr1[i];
-        for (i = arr1.length; i < finalLength; i++) merged[i] = arr2[i - arr1.length];
+        for (; i < finalLength; i++) merged[i] = arr2[i - arr1.length];
 
         System.out.print("Merged: ");
         for (int j : merged) System.out.print(j + " ");
