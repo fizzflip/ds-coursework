@@ -50,7 +50,7 @@ Array 2: 10 20 30 40 50
 Result: 1 20 2 30 3 40 4 50 5 10
 ```
 
-- [ ] Array operations on elements: [**\[S\]**](EAs/ArrayOperations.java)
+- [x] Array operations on elements: [**\[S\]**](EAs/Array.java)
   - [x] Add
-  - [ ] Delete
-  - [ ] Update
+  - [x] Delete
+  - [x] Update
