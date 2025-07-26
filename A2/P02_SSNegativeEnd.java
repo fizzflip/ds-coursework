@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P01_SSNegativeEnd {
+public class P02_SSNegativeEnd {
     
     static int sequentialSearch(int[] array, int key) {
         for (int i = 0; i < array.length; i++) if (array[i] == key) return i;
