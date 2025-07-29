@@ -62,7 +62,7 @@ C = {3, 4, 5, 6, 7, 8, 9}
 
 ### Extra Assignments
 
-- [x] Interleave two arrays taken as user input. [**\[S\]**](EAs/InterleaveArrays.java)
+- [x] Interleave two arrays taken as user input. [**\[S\]**](Assignments/EAs/InterleaveArrays.java)
 
 ```txt
 N: 5
@@ -71,7 +71,7 @@ Array 2: 10 20 30 40 50
 Result: 1 20 2 30 3 40 4 50 5 10
 ```
 
-- [x] Array operations on elements: [**\[S\]**](EAs/Array.java)
+- [x] Array operations on elements: [**\[S\]**](Assignments/EAs/Array.java)
   - [x] Add
   - [x] Delete
   - [x] Update
