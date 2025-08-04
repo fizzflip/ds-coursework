@@ -5,8 +5,8 @@
 - [x] Write a program for array using row major order and column major order
 - [x] Write a program implement sequential search algorithm.
 - [x] Implement push and pop algorithms of stack using array.
-- [ ] Develop a program to present recursive functions (factorial, greatest common divisor, Fibonacci series)
-- [ ] Implement insert operation of in a queue.
+- [x] Develop a program to present recursive functions (factorial, greatest common divisor, Fibonacci series)
+- [ ] Implement insert operation in a queue.
 - [ ] Implement delete operation and searching in a queue.
 - [ ] Implement insertion of a node at the beginning of a singly-linked-list.
 - [ ] Implement insertion of a node at the end of a singly-linked-list.
