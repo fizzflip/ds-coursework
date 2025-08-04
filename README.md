@@ -21,7 +21,7 @@
 
 ## Assignments
 
-### Arrays
+### A1: Arrays
 
 - [x] Create an array of five elements and display them on the terminal. [**\[S\]**](Assignments/A1/P01_ArrayElements.java)
 - [x] Display an array in reverse order. [**\[S\]**](Assignments/A1/P02_ReverseArray.java)
@@ -55,10 +55,20 @@ C = {3, 4, 5, 6, 7, 8, 9}
 - [x] Print array in column major order using a function. [**\[S\]**](Assignments/A1/P14_MatrixColumnMajor.java)
 - [x] Get two different values from the user and perform arithmetic operations then display the result (use user defined functions & switch case) [**\[S\]**](Assignments/A1/P15_ArithmeticOperations.java)
 
-### Searching
+### A2: Searching
 
 - [x] Implement sequential search using function. [**\[S\]**](Assignments/A2/P01_SequentialSearch.java)
 - [x] Implement linear search using function but abort the program if user enters a negative value. [**\[S\]**](Assignments/A2/P02_SSNegativeEnd.java)
+
+### A3: Stack
+
+- [x] Implement push and pop algorithms of stack using array without switch case.
+- [x] Write a java code to create a stack of five integer elements and perform following operations:
+  - [x] PUSH
+  - [x] POP
+  - [x] PEEK
+  - [x] Stack EMPTY or NOT
+  - [x] Stack is FULL or NOT
 
 ### Extra Assignments
 
