@@ -1,4 +1,4 @@
-public class LoopFibonacci {
+public class P3_LoopFibonacci {
     static void fibonacci(int n) {
         if (n <= 1) return;
         System.out.println("0\n1");

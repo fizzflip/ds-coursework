@@ -62,8 +62,8 @@ C = {3, 4, 5, 6, 7, 8, 9}
 
 ### A3: Stack
 
-- [x] Implement push and pop algorithms of stack using array without switch case.
-- [x] Write a java code to create a stack of five integer elements and perform following operations:
+- [x] Implement push and pop algorithms of stack using array without switch case. [**\[S\]**](Assignments/A3/P1_StackPushPop.java)
+- [x] Write a java code to create a stack of five integer elements and perform following operations: [**\[S\]**](Assignments/A3/P2_StackOperations.java)
   - [x] PUSH
   - [x] POP
   - [x] PEEK
@@ -72,9 +72,9 @@ C = {3, 4, 5, 6, 7, 8, 9}
 
 ### A4: Recursive Functions
 
-- [x] Calculate Factorial with interative function.
-- [x] Calculate Greatest Common Divisor with iterative function.
-- [x] Create an iterative function to display Fibonacci series till given term.
+- [x] Calculate Factorial with interative function. [**\[S\]**](Assignments/A4/P1_LoopFactorial.java)
+- [x] Calculate Greatest Common Divisor with iterative function. [**\[S\]**](Assignments/A4/P2_LoopGCD.java)
+- [x] Create an iterative function to display Fibonacci series till given term. [**\[S\]**](Assignments/A4/P3_LoopFibonacci.java)
 
 ### A5: Queue
 

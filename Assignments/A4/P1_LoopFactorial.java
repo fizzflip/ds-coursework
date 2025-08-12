@@ -1,4 +1,4 @@
-public class LoopFactorial {
+public class P1_LoopFactorial {
     
     static int factorial(int num) {
         num = (num > 0) ? num : -num;

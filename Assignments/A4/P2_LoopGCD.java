@@ -1,4 +1,4 @@
-public class LoopGCD {
+public class P2_LoopGCD {
     
     static int gcd(int a, int b) {
         a = (a > 0) ? a : -a;
