@@ -70,6 +70,12 @@ C = {3, 4, 5, 6, 7, 8, 9}
   - [x] Stack EMPTY or NOT
   - [x] Stack is FULL or NOT
 
+### A4: Recursive Functions
+
+- [x] Calculate Factorial with interative function.
+- [x] Calculate Greatest Common Divisor with iterative function.
+- [x] Create an iterative function to display Fibonacci series till given term.
+
 ### Extra Assignments
 
 - [x] Interleave two arrays taken as user input. [**\[S\]**](Assignments/EAs/InterleaveArrays.java)
