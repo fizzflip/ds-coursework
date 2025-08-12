@@ -76,6 +76,16 @@ C = {3, 4, 5, 6, 7, 8, 9}
 - [x] Calculate Greatest Common Divisor with iterative function.
 - [x] Create an iterative function to display Fibonacci series till given term.
 
+### A5: Queue
+
+- [x] Implement insert of char queue. [**\[S\]**](Assignments/A5/P1_InsertCharQueue.java)
+- [x] Implement Delete and Searching of char queue. [**\[S\]**](Assignments/A5/P2_DeleteSearchCharQueue.java)
+- [x] Write java code to create a Queue and perform following operations using switch case: [**\[S\]**](Assignments/A5/P3_QueueOperations.java)
+  - [x] INSERT
+  - [x] DELETE
+  - [x] DISPLAY
+  - [x] EXIT
+
 ### Extra Assignments
 
 - [x] Interleave two arrays taken as user input. [**\[S\]**](Assignments/EAs/InterleaveArrays.java)
