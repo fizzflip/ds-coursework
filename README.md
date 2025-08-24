@@ -85,6 +85,20 @@ C = {3, 4, 5, 6, 7, 8, 9}
   - [x] DISPLAY
   - [x] EXIT
 
+## A6: Linked List
+
+- [x] Implement insertion of node at given position of the list in singly linked list.
+- [ ] Implement deletion of node at given position of the list in singly linked list.
+- [ ] Implement count number of elements in singly linked list and print it.
+- [ ] Write a Java program to perform following operations using menu on a singly-linked-list.
+  - [ ] Insert at HEAD
+  - [ ] Delete at HEAD
+  - [ ] Display all nodes
+- [ ] Write a Java Program to perform following operation on the singly-linked-list.
+  - [ ] Insert - Insert node at HEAD
+  - [ ] Delete - Delete node at TAIL
+  - [ ] Display - Display all nodes
+
 ### Extra Assignments
 
 - [x] Interleave two arrays taken as user input. [**\[S\]**](Assignments/EAs/InterleaveArrays.java)
